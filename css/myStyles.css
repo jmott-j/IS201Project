@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;   /* stack content vertically */
+    align-items: center;      /* center horizontally */
+    margin: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+  font-family: Georgia, serif;
+}
+
+h2 {
+    font-family:Georgia, serif;
+}
+
+h3 {
+  font-family: Verdana, sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+.gallery img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #333;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+li {
+    font-size: larger;
+    font-family: georgia;
+}
